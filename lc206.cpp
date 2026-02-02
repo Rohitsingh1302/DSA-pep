@@ -4,14 +4,14 @@ using namespace std;
 struct ListNode {
     int val;
     ListNode* next;
-    ListNode(int x) : val(x), next(NULL) {}
+    ListNode(int x) : val(x), next(nullptr) {}
 };
 
 ListNode* reverseList(ListNode* head) {
-    ListNode* prev = NULL;
+    ListNode* prev = nullptr;
     ListNode* curr = head;
     
-    while (curr != NULL) {
+    while (curr != nullptr) {
         ListNode* nextNode = curr->next; // store next
         curr->next = prev;               // reverse link
         prev = curr;                     // move prev

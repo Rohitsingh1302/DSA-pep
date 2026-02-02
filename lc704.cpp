@@ -1,3 +1,7 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -17,3 +21,15 @@ public:
         return -1;
     }
 };
+
+int main() {
+    Solution sol;
+    vector<int> nums = {-1, 0, 3, 5, 9, 12};
+    
+    int target = 9;
+    int result = sol.search(nums, target);
+    
+    cout << "Index of " << target << ": " << result << endl;
+    
+    return 0;
+}
