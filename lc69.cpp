@@ -1,4 +1,4 @@
-// LeetCode 69. Sqrt(x)
+// LeetCode 69.
 #include <bits/stdc++.h>
 using namespace std;
 
