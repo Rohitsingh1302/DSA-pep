@@ -16,7 +16,6 @@ int longestConsecutive(vector<int>& nums) {
     }
     return longest;
 }
-
 int main() {
     int n;
     cin >> n;
