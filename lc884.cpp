@@ -3,7 +3,6 @@
 #include <vector>
 #include <sstream>
 using namespace std;
-
 class Solution {
 public:
     vector<string> uncommonFromSentences(string s1, string s2) {
@@ -24,16 +23,13 @@ public:
         return res;
     }
 };
-
 int main() {
     Solution obj;
     string s1 = "this apple is sweet";
     string s2 = "this apple is sour";
 
     vector<string> ans = obj.uncommonFromSentences(s1, s2);
-
     for(string s : ans)
         cout << s << " ";
-
     return 0;
 }
