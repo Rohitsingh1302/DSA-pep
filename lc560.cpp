@@ -21,7 +21,6 @@ public:
         return count;
     }
 };
-
 int main() {
     Solution obj;
     vector<int> nums = {1,1,1};
