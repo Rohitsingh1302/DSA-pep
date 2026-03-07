@@ -20,13 +20,9 @@ public:
         return ans;
     }
 };
-
 int main() {
     Solution obj;
-
     vector<int> time = {30,20,150,100,40};
-
     cout << obj.numPairsDivisibleBy60(time);
-
     return 0;
 }
