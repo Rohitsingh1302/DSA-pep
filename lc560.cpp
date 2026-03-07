@@ -25,6 +25,5 @@ int main() {
     Solution obj;
     vector<int> nums = {1,1,1};
     int k = 2;
-
     cout << obj.subarraySum(nums, k);
 }
