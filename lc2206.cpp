@@ -19,13 +19,10 @@ public:
 
 int main() {
     Solution obj;
-
     vector<int> nums = {3,2,3,2,2,2};
-
     if(obj.divideArray(nums))
         cout << "True";
     else
         cout << "False";
-
     return 0;
 }
