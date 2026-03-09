@@ -23,6 +23,5 @@ int main() {
     int k = 1;
 
     cout << obj.countKDifference(nums, k);
-
     return 0;
 }
