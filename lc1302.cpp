@@ -47,9 +47,7 @@ int main(){
     root->right = new TreeNode(3);
     root->left->left = new TreeNode(4);
     root->right->right = new TreeNode(5);
-
     Solution obj;
     cout << obj.deepestLeavesSum(root);
-
     return 0;
 }
