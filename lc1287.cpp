@@ -1,10 +1,7 @@
-// LeetCode 1287 - Element Appearing More Than 25% In Sorted Array
-// Git: git commit -m "LeetCode 1287 - Element Appearing More Than 25%"
 
 #include <iostream>
 #include <vector>
 using namespace std;
-
 class Solution {
 public:
     int findSpecialInteger(vector<int>& arr) {
@@ -15,7 +12,6 @@ public:
         return -1;
     }
 };
-
 int main(){
     vector<int> arr={1,2,2,6,6,6,6,7,10};
     Solution obj;
