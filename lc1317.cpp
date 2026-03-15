@@ -4,7 +4,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 class Solution {
 public:
     bool valid(int x){
@@ -14,7 +13,6 @@ public:
         }
         return true;
     }
-
     vector<int> getNoZeroIntegers(int n) {
         for(int a=1;a<n;a++)
             if(valid(a) && valid(n-a))
@@ -22,14 +20,10 @@ public:
         return {};
     }
 };
-
 int main(){
     int n = 11;
     Solution obj;
-
     vector<int> ans = obj.getNoZeroIntegers(n);
-
     cout << ans[0] << " " << ans[1];
-
     return 0;
 }
