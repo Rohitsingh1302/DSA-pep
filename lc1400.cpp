@@ -21,17 +21,14 @@ public:
         return odd <= k;
     }
 };
-
 int main(){
     string s = "annabelle";
     int k = 2;
 
     Solution obj;
-
     if(obj.canConstruct(s,k))
         cout<<"true";
     else
         cout<<"false";
-
     return 0;
 }
