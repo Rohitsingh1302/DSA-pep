@@ -1,10 +1,7 @@
-// LeetCode 1491 - Average Salary Excluding Min and Max
-// Git: git commit -m "LeetCode 1491 - Average Salary Excluding Min and Max"
 
 #include <iostream>
 #include <vector>
 using namespace std;
-
 class Solution {
 public:
     double average(vector<int>& salary) {
