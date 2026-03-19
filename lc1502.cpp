@@ -1,11 +1,8 @@
-// LeetCode 1502 - Can Make Arithmetic Progression From Sequence
-// Git: git commit -m "LeetCode 1502 - Arithmetic Progression Check"
 
 #include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
-
 class Solution {
 public:
     bool canMakeArithmeticProgression(vector<int>& arr) {
@@ -19,7 +16,6 @@ public:
         return true;
     }
 };
-
 int main(){
     vector<int> arr = {3,5,1};
     Solution obj;
