@@ -22,13 +22,10 @@ public:
 
 int main(){
     vector<int> arr = {3,5,1};
-
     Solution obj;
-
     if(obj.canMakeArithmeticProgression(arr))
         cout << "true";
     else
         cout << "false";
-
     return 0;
 }
