@@ -12,7 +12,6 @@ public:
         return res;
     }
 };
-
 int main() {
     Solution sol;
     cout << sol.removeDuplicates("abbaca");  // Output: ca
