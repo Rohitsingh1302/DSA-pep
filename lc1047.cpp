@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 string removeDuplicates(string s) {
     string t="";
     for(char c:s){
