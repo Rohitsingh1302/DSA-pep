@@ -10,7 +10,6 @@ int maxSubArray(vector<int>& nums) {
     }
     return ans;
 }
-
 int main() {
     int n;
     cin >> n;
