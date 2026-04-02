@@ -12,7 +12,6 @@ int countConsistentStrings(string a, vector<string>& w) {
     }
     return ans;
 }
-
 int main() {
     string allowed = "ab";
     vector<string> w = {"ad","bd","aaab","baa","badab"};
