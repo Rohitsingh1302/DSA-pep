@@ -8,7 +8,6 @@ int sumOfUnique(vector<int>& a) {
     for(auto &p:m) if(p.second==1) s+=p.first;
     return s;
 }
-
 int main() {
     vector<int> a = {1,2,3,2};
     cout << sumOfUnique(a);
