@@ -9,7 +9,6 @@ string truncateSentence(string s, int k) {
     }
     return s;
 }
-
 int main() {
     string s = "Hello how are you Contestant";
     int k = 4;
