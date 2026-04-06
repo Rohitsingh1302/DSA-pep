@@ -7,7 +7,6 @@ string reversePrefix(string w, char ch) {
     if(i<w.size()) reverse(w.begin(),w.begin()+i+1);
     return w;
 }
-
 int main() {
     string w = "abcdefd";
     char ch = 'd';
