@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int countPoints(string r) {
     vector<set<char>> v(10);
     for(int i=0;i<r.size();i+=2)
@@ -9,7 +8,6 @@ int countPoints(string r) {
     for(auto &s:v) if(s.size()==3) ans++;
     return ans;
 }
-
 int main() {
     string r = "B0B6G0R6R0R6G9";
     cout << countPoints(r);
