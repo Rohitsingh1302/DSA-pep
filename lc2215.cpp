@@ -8,7 +8,6 @@ vector<vector<int>> findDifference(vector<int>& a, vector<int>& b) {
     for(int i:s2) if(!s1.count(i)) y.push_back(i);
     return {x,y};
 }
-
 int main() {
     vector<int> a = {1,2,3};
     vector<int> b = {2,4,6};
