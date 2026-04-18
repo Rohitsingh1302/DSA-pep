@@ -10,7 +10,6 @@ bool findSubarrays(vector<int>& a) {
     }
     return 0;
 }
-
 int main() {
     vector<int> a = {4,2,4};
     cout << findSubarrays(a);
