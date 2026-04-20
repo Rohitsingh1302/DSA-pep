@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 bool findSubarrays(vector<int>& a) {
     unordered_set<int> s;
     for(int i=0;i+1<a.size();i++){
