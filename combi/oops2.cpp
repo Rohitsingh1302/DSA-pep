@@ -41,6 +41,5 @@ int main()
     B1.getData();
     B2.getData();
     B3.getData();
-
     return 0;
 }
