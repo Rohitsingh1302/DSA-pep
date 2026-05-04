@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -16,11 +15,9 @@ public:
 int main() {
     Solution obj;
     vector<int> nums = {2,3,1,1,4};
-
     if(obj.canJump(nums))
         cout << "Can reach last index\n";
     else
         cout << "Cannot reach last index\n";
-
     return 0;
 }
