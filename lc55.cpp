@@ -13,7 +13,6 @@ public:
         return true;
     }
 };
-
 int main() {
     Solution obj;
     vector<int> nums = {2,3,1,1,4};
