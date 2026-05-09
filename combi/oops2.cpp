@@ -1,14 +1,12 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 class Book
 {
 public:
     string Author;
     string BookName;
     int price;
-    
     Book(string Author = "", string BookName = "", int price = 0)
         : Author(Author), BookName(BookName), price(price) {}
     
@@ -19,7 +17,6 @@ public:
              << ", Price: " << price << endl;
     }
 };
-
 int main()
 {
     Book B1;
