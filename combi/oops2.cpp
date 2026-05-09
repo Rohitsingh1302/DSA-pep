@@ -8,31 +8,18 @@ public:
     string Author;
     string BookName;
     int price;
-    Book()
+    
+    Book(string Author = "", string BookName = "", int price = 0)
+        : Author(Author), BookName(BookName), price(price) {}
+    
+    void getData()
     {
-        this->Author = "";
-        this->BookName = "";
-        this->price = 0;
-    }
-    Book(string Author, string BookName, int price)
-    {
-        this->Author = Author;
-        this->BookName = BookName;
-        this->price = price;
-    }
-    Book(string Author, string BookName)
-    {
-        this->Author = Author;
-        this->BookName = BookName;
-        this->price = 0;
-    }
-    void getData ()
-    {
-         cout << "Author: " << Author
-              << ", Book: " << BookName
-              << ", Price: " << price << endl;
+        cout << "Author: " << Author
+             << ", Book: " << BookName
+             << ", Price: " << price << endl;
     }
 };
+
 int main()
 {
     Book B1;
