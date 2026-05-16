@@ -9,7 +9,6 @@ public:
     int price;
     Book(string Author = "", string BookName = "", int price = 0)
         : Author(Author), BookName(BookName), price(price) {}
-    
     void getData()
     {
         cout << "Author: " << Author
