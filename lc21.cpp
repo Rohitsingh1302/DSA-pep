@@ -1,5 +1,4 @@
 #include <iostream>
-
 struct Node {
     int val;
     Node* next;
@@ -13,7 +12,6 @@ Node* merge(Node* l1, Node* l2) {
 void print(Node* head) {
     for (; head; head = head->next) std::cout << head->val << " ";
 }
-
 int main() {
     Node* l1 = new Node(1, new Node(3, new Node(5)));
     Node* l2 = new Node(2, new Node(4, new Node(6)));
