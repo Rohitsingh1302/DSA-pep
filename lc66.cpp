@@ -1,27 +1,15 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
-vector<int> plusOne(vector<int>& digits) {
-    for (int i = digits.size() - 1; i >= 0; i--) {
-        if (digits[i] < 9) {
-            digits[i]++;
-            return digits;
-        }
-        digits[i] = 0;
-    }
-    digits.insert(digits.begin(), 1);
-    return digits;
+std::vector<int> plusOne(std::vector<int>& a){
+    for(int i = (int)a.size() - 1; i >= 0; --i)
+        if(a[i] < 9) { ++a[i]; return a; } else a[i] = 0;
+    a.insert(a.begin(), 1);
+    return a;
 }
 
-int main() {
-    vector<int> digits = {9, 9, 9};
-
-    vector<int> result = plusOne(digits);
-
-    cout << "Result: ";
-    for (int d : result)
-        cout << d << " ";
-
+int main(){
+    std::vector<int> v{9,9,9};
+    for(auto d : plusOne(v)) std::cout << d << ' ';
     return 0;
 }
